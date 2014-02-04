@@ -118,6 +118,10 @@
 				A105320C18A0EDB300593951 /* ViewController.h */,
 				A105320D18A0EDB300593951 /* ViewController.m */,
 				A105320F18A0EDB300593951 /* Images.xcassets */,
+				A105322D18A0EE5200593951 /* Controller */,
+				A105322C18A0EE2F00593951 /* Model */,
+				A105322E18A0F04C00593951 /* NewTravelView */,
+				A105322F18A0F08100593951 /* AlbumView */,
 				A10531FE18A0EDB300593951 /* Supporting Files */,
 			);
 			path = TravelLog;
@@ -150,6 +154,36 @@
 				A105321F18A0EDB400593951 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A105322C18A0EE2F00593951 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A105322D18A0EE5200593951 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A105322E18A0F04C00593951 /* NewTravelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NewTravelView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A105322F18A0F08100593951 /* AlbumView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AlbumView;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

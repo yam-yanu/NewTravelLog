@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  TravelLog
 //
-//  Created by ami on 2014/02/04.
+//  Created by ami on 2014/02/06.
 //  Copyright (c) 2014年 Yosuke. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 @end

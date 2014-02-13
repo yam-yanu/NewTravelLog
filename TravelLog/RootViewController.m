@@ -12,7 +12,11 @@
 
 @end
 
-@implementation RootViewController
+@implementation RootViewController{
+    IBOutlet UIButton *travel_btn;
+    IBOutlet UIButton *album_btn;
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +31,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+
+}
+
+//旅するボタンが押された時
+- (IBAction)travel_btn:(UIButton *)sender {
     NSLog(@"HelloWorld");
 }
 

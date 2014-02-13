@@ -20,7 +20,34 @@
 		A105321918A0EDB400593951 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10531FB18A0EDB300593951 /* UIKit.framework */; };
 		A105322118A0EDB400593951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A105321F18A0EDB400593951 /* InfoPlist.strings */; };
 		A105322318A0EDB400593951 /* TravelLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A105322218A0EDB400593951 /* TravelLogTests.m */; };
+		A10C44DA18A60BA3001EEB5E /* R9HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C44D918A60BA3001EEB5E /* R9HTTPRequest.m */; };
 		A145BA2C18A31C9100E561B5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A145BA2B18A31C9100E561B5 /* RootViewController.m */; };
+		A195A19018AB13AC00F42F3A /* RootViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A195A18F18AB13AC00F42F3A /* RootViewBackground.png */; };
+		A195A19318AB1B0500F42F3A /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A19218AB1B0500F42F3A /* AlbumViewController.m */; };
+		A195A19618AB1B4D00F42F3A /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A19518AB1B4D00F42F3A /* TravelViewController.m */; };
+		A195A19818AC9F6F00F42F3A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A19718AC9F6F00F42F3A /* GoogleMaps.framework */; };
+		A195A19C18ACA10C00F42F3A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A195A19B18ACA10C00F42F3A /* GoogleMaps.bundle */; };
+		A195A19E18ACA15F00F42F3A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A19D18ACA15F00F42F3A /* AVFoundation.framework */; };
+		A195A1A018ACA16A00F42F3A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A19F18ACA16A00F42F3A /* CoreData.framework */; };
+		A195A1A218ACA17600F42F3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1A118ACA17600F42F3A /* CoreLocation.framework */; };
+		A195A1A418ACA18200F42F3A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1A318ACA18200F42F3A /* CoreText.framework */; };
+		A195A1A618ACA19800F42F3A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1A518ACA19800F42F3A /* GLKit.framework */; };
+		A195A1A818ACA21100F42F3A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1A718ACA21100F42F3A /* ImageIO.framework */; };
+		A195A1AF18ACA26C00F42F3A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1A918ACA26C00F42F3A /* libc++.dylib */; };
+		A195A1B018ACA26C00F42F3A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1AA18ACA26C00F42F3A /* libicucore.dylib */; };
+		A195A1B118ACA26C00F42F3A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1AB18ACA26C00F42F3A /* libz.dylib */; };
+		A195A1B218ACA26C00F42F3A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1AC18ACA26C00F42F3A /* OpenGLES.framework */; };
+		A195A1B318ACA26C00F42F3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1AD18ACA26C00F42F3A /* QuartzCore.framework */; };
+		A195A1B418ACA26C00F42F3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1AE18ACA26C00F42F3A /* SystemConfiguration.framework */; };
+		A195A1C018ACBE4D00F42F3A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A1B718ACBE4D00F42F3A /* FMDatabase.m */; };
+		A195A1C118ACBE4D00F42F3A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A1B918ACBE4D00F42F3A /* FMDatabaseAdditions.m */; };
+		A195A1C218ACBE4D00F42F3A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A1BB18ACBE4D00F42F3A /* FMDatabasePool.m */; };
+		A195A1C318ACBE4D00F42F3A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A1BD18ACBE4D00F42F3A /* FMDatabaseQueue.m */; };
+		A195A1C418ACBE4D00F42F3A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A1BF18ACBE4D00F42F3A /* FMResultSet.m */; };
+		A195A1C618ACBEA600F42F3A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A195A1C518ACBEA600F42F3A /* libsqlite3.0.dylib */; };
+		A19B634A18A4C00A00685110 /* UserDefaultAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B634918A4C00A00685110 /* UserDefaultAccess.m */; };
+		A19B634D18A4C10100685110 /* LocalDatabaseAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B634C18A4C10100685110 /* LocalDatabaseAccess.m */; };
+		A19B635018A4C12C00685110 /* RemoteDatabaseAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B634F18A4C12C00685110 /* RemoteDatabaseAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +78,46 @@
 		A105321E18A0EDB400593951 /* TravelLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelLogTests-Info.plist"; sourceTree = "<group>"; };
 		A105322018A0EDB400593951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A105322218A0EDB400593951 /* TravelLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelLogTests.m; sourceTree = "<group>"; };
+		A10C44D818A60BA3001EEB5E /* R9HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R9HTTPRequest.h; sourceTree = "<group>"; };
+		A10C44D918A60BA3001EEB5E /* R9HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R9HTTPRequest.m; sourceTree = "<group>"; };
 		A145BA2A18A31C9100E561B5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A145BA2B18A31C9100E561B5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A195A18F18AB13AC00F42F3A /* RootViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RootViewBackground.png; sourceTree = "<group>"; };
+		A195A19118AB1B0500F42F3A /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumViewController.h; path = TravelLog/AlbumViewController.h; sourceTree = "<group>"; };
+		A195A19218AB1B0500F42F3A /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumViewController.m; path = TravelLog/AlbumViewController.m; sourceTree = "<group>"; };
+		A195A19418AB1B4D00F42F3A /* TravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TravelViewController.h; path = TravelLog/TravelViewController.h; sourceTree = "<group>"; };
+		A195A19518AB1B4D00F42F3A /* TravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TravelViewController.m; path = TravelLog/TravelViewController.m; sourceTree = "<group>"; };
+		A195A19718AC9F6F00F42F3A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = TravelLog/GoogleMaps.framework; sourceTree = "<group>"; };
+		A195A19B18ACA10C00F42F3A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = TravelLog/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		A195A19D18ACA15F00F42F3A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A195A19F18ACA16A00F42F3A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A195A1A118ACA17600F42F3A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A195A1A318ACA18200F42F3A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A195A1A518ACA19800F42F3A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A195A1A718ACA21100F42F3A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A195A1A918ACA26C00F42F3A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		A195A1AA18ACA26C00F42F3A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		A195A1AB18ACA26C00F42F3A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A195A1AC18ACA26C00F42F3A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A195A1AD18ACA26C00F42F3A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A195A1AE18ACA26C00F42F3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A195A1B618ACBE4D00F42F3A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A195A1B718ACBE4D00F42F3A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A195A1B818ACBE4D00F42F3A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A195A1B918ACBE4D00F42F3A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A195A1BA18ACBE4D00F42F3A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A195A1BB18ACBE4D00F42F3A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A195A1BC18ACBE4D00F42F3A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A195A1BD18ACBE4D00F42F3A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A195A1BE18ACBE4D00F42F3A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A195A1BF18ACBE4D00F42F3A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A195A1C518ACBEA600F42F3A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A19B634818A4C00A00685110 /* UserDefaultAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultAccess.h; sourceTree = "<group>"; };
+		A19B634918A4C00A00685110 /* UserDefaultAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultAccess.m; sourceTree = "<group>"; };
+		A19B634B18A4C10100685110 /* LocalDatabaseAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDatabaseAccess.h; sourceTree = "<group>"; };
+		A19B634C18A4C10100685110 /* LocalDatabaseAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDatabaseAccess.m; sourceTree = "<group>"; };
+		A19B634E18A4C12C00685110 /* RemoteDatabaseAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteDatabaseAccess.h; sourceTree = "<group>"; };
+		A19B634F18A4C12C00685110 /* RemoteDatabaseAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteDatabaseAccess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +125,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A195A1C618ACBEA600F42F3A /* libsqlite3.0.dylib in Frameworks */,
+				A195A1AF18ACA26C00F42F3A /* libc++.dylib in Frameworks */,
+				A195A1B018ACA26C00F42F3A /* libicucore.dylib in Frameworks */,
+				A195A1B118ACA26C00F42F3A /* libz.dylib in Frameworks */,
+				A195A1B218ACA26C00F42F3A /* OpenGLES.framework in Frameworks */,
+				A195A1B318ACA26C00F42F3A /* QuartzCore.framework in Frameworks */,
+				A195A1B418ACA26C00F42F3A /* SystemConfiguration.framework in Frameworks */,
+				A195A1A818ACA21100F42F3A /* ImageIO.framework in Frameworks */,
+				A195A1A618ACA19800F42F3A /* GLKit.framework in Frameworks */,
+				A195A1A418ACA18200F42F3A /* CoreText.framework in Frameworks */,
+				A195A1A218ACA17600F42F3A /* CoreLocation.framework in Frameworks */,
+				A195A1A018ACA16A00F42F3A /* CoreData.framework in Frameworks */,
+				A195A19E18ACA15F00F42F3A /* AVFoundation.framework in Frameworks */,
 				A10531FA18A0EDB300593951 /* CoreGraphics.framework in Frameworks */,
 				A10531FC18A0EDB300593951 /* UIKit.framework in Frameworks */,
+				A195A19818AC9F6F00F42F3A /* GoogleMaps.framework in Frameworks */,
 				A10531F818A0EDB300593951 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +180,21 @@
 		A10531F618A0EDB300593951 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A195A1C518ACBEA600F42F3A /* libsqlite3.0.dylib */,
+				A195A1A918ACA26C00F42F3A /* libc++.dylib */,
+				A195A1AA18ACA26C00F42F3A /* libicucore.dylib */,
+				A195A1AB18ACA26C00F42F3A /* libz.dylib */,
+				A195A1AC18ACA26C00F42F3A /* OpenGLES.framework */,
+				A195A1AD18ACA26C00F42F3A /* QuartzCore.framework */,
+				A195A1AE18ACA26C00F42F3A /* SystemConfiguration.framework */,
+				A195A1A718ACA21100F42F3A /* ImageIO.framework */,
+				A195A1A518ACA19800F42F3A /* GLKit.framework */,
+				A195A1A318ACA18200F42F3A /* CoreText.framework */,
+				A195A1A118ACA17600F42F3A /* CoreLocation.framework */,
+				A195A19F18ACA16A00F42F3A /* CoreData.framework */,
+				A195A19D18ACA15F00F42F3A /* AVFoundation.framework */,
+				A195A19B18ACA10C00F42F3A /* GoogleMaps.bundle */,
+				A195A19718AC9F6F00F42F3A /* GoogleMaps.framework */,
 				A10531F718A0EDB300593951 /* Foundation.framework */,
 				A10531F918A0EDB300593951 /* CoreGraphics.framework */,
 				A10531FB18A0EDB300593951 /* UIKit.framework */,
@@ -117,11 +211,14 @@
 				A105320918A0EDB300593951 /* Main.storyboard */,
 				A145BA2A18A31C9100E561B5 /* RootViewController.h */,
 				A145BA2B18A31C9100E561B5 /* RootViewController.m */,
+				A195A18E18AB136900F42F3A /* Image */,
 				A105320F18A0EDB300593951 /* Images.xcassets */,
 				A105322D18A0EE5200593951 /* Controller */,
 				A105322C18A0EE2F00593951 /* Model */,
 				A105322E18A0F04C00593951 /* NewTravelView */,
 				A105322F18A0F08100593951 /* AlbumView */,
+				A10C44DB18A60E57001EEB5E /* HTTPRequest */,
+				A195A1B518ACBE4D00F42F3A /* SQLite */,
 				A10531FE18A0EDB300593951 /* Supporting Files */,
 			);
 			path = TravelLog;
@@ -159,6 +256,12 @@
 		A105322C18A0EE2F00593951 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A19B634818A4C00A00685110 /* UserDefaultAccess.h */,
+				A19B634918A4C00A00685110 /* UserDefaultAccess.m */,
+				A19B634B18A4C10100685110 /* LocalDatabaseAccess.h */,
+				A19B634C18A4C10100685110 /* LocalDatabaseAccess.m */,
+				A19B634E18A4C12C00685110 /* RemoteDatabaseAccess.h */,
+				A19B634F18A4C12C00685110 /* RemoteDatabaseAccess.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -173,6 +276,8 @@
 		A105322E18A0F04C00593951 /* NewTravelView */ = {
 			isa = PBXGroup;
 			children = (
+				A195A19418AB1B4D00F42F3A /* TravelViewController.h */,
+				A195A19518AB1B4D00F42F3A /* TravelViewController.m */,
 			);
 			name = NewTravelView;
 			path = ..;
@@ -181,9 +286,47 @@
 		A105322F18A0F08100593951 /* AlbumView */ = {
 			isa = PBXGroup;
 			children = (
+				A195A19118AB1B0500F42F3A /* AlbumViewController.h */,
+				A195A19218AB1B0500F42F3A /* AlbumViewController.m */,
 			);
 			name = AlbumView;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		A10C44DB18A60E57001EEB5E /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A10C44D818A60BA3001EEB5E /* R9HTTPRequest.h */,
+				A10C44D918A60BA3001EEB5E /* R9HTTPRequest.m */,
+			);
+			name = HTTPRequest;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A195A18E18AB136900F42F3A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A195A18F18AB13AC00F42F3A /* RootViewBackground.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		A195A1B518ACBE4D00F42F3A /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				A195A1B618ACBE4D00F42F3A /* FMDatabase.h */,
+				A195A1B718ACBE4D00F42F3A /* FMDatabase.m */,
+				A195A1B818ACBE4D00F42F3A /* FMDatabaseAdditions.h */,
+				A195A1B918ACBE4D00F42F3A /* FMDatabaseAdditions.m */,
+				A195A1BA18ACBE4D00F42F3A /* FMDatabasePool.h */,
+				A195A1BB18ACBE4D00F42F3A /* FMDatabasePool.m */,
+				A195A1BC18ACBE4D00F42F3A /* FMDatabaseQueue.h */,
+				A195A1BD18ACBE4D00F42F3A /* FMDatabaseQueue.m */,
+				A195A1BE18ACBE4D00F42F3A /* FMResultSet.h */,
+				A195A1BF18ACBE4D00F42F3A /* FMResultSet.m */,
+			);
+			name = SQLite;
+			path = ../SQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +405,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A195A19C18ACA10C00F42F3A /* GoogleMaps.bundle in Resources */,
+				A195A19018AB13AC00F42F3A /* RootViewBackground.png in Resources */,
 				A105321018A0EDB300593951 /* Images.xcassets in Resources */,
 				A105320218A0EDB300593951 /* InfoPlist.strings in Resources */,
 				A105320B18A0EDB300593951 /* Main.storyboard in Resources */,
@@ -283,6 +428,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A195A19318AB1B0500F42F3A /* AlbumViewController.m in Sources */,
+				A195A1C218ACBE4D00F42F3A /* FMDatabasePool.m in Sources */,
+				A195A1C418ACBE4D00F42F3A /* FMResultSet.m in Sources */,
+				A19B634D18A4C10100685110 /* LocalDatabaseAccess.m in Sources */,
+				A10C44DA18A60BA3001EEB5E /* R9HTTPRequest.m in Sources */,
+				A195A1C318ACBE4D00F42F3A /* FMDatabaseQueue.m in Sources */,
+				A195A1C018ACBE4D00F42F3A /* FMDatabase.m in Sources */,
+				A19B634A18A4C00A00685110 /* UserDefaultAccess.m in Sources */,
+				A19B635018A4C12C00685110 /* RemoteDatabaseAccess.m in Sources */,
+				A195A19618AB1B4D00F42F3A /* TravelViewController.m in Sources */,
+				A195A1C118ACBE4D00F42F3A /* FMDatabaseAdditions.m in Sources */,
 				A105320818A0EDB300593951 /* AppDelegate.m in Sources */,
 				A145BA2C18A31C9100E561B5 /* RootViewController.m in Sources */,
 				A105320418A0EDB300593951 /* main.m in Sources */,
@@ -370,6 +526,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -402,6 +559,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -413,9 +571,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ami/Desktop/TravelLog/TravelLog,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TravelLog/TravelLog-Prefix.pch";
 				INFOPLIST_FILE = "TravelLog/TravelLog-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -427,9 +590,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ami/Desktop/TravelLog/TravelLog,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TravelLog/TravelLog-Prefix.pch";
 				INFOPLIST_FILE = "TravelLog/TravelLog-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
